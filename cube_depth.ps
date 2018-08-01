@@ -1,0 +1,12 @@
+struct PixelInputType
+{
+    float4 position : SV_POSITION;
+	float3 dir:  DIR;
+};
+
+float4 PS(PixelInputType input) : SV_TARGET
+{
+	float squaredLen = dot(input.dir, input.dir);
+	squaredLen = sqrt(squaredLen);			//some people suggest use squared length, but, precision problem ensues.
+	return float4(squaredLen, squaredLen, squaredLen, 1.f);
+}
