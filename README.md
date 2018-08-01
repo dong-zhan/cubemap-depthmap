@@ -3,7 +3,7 @@ vertex/pixel shader to generate depth map
 
 cube render target is created with flag DXGI_FORMAT_R32_FLOAT
 
-scene 
+scene (the models in scene has only one half :P)
 
 ![alt text](https://github.com/dong-zhan/cubemap-depthmap/blob/master/scene.JPG)
 
