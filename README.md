@@ -10,3 +10,6 @@ scene
 resulting depthmap in texture uv space
 
 ![alt text](https://github.com/dong-zhan/cubemap-depthmap/blob/master/test.jpg)
+
+end result
+![alt text](https://github.com/dong-zhan/cubemap-depthmap/blob/master/end%20result.JPG)
