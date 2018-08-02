@@ -1,4 +1,6 @@
 # cubemap-depthmap
+this can be used to bake shadow for point light in blender, see end result :)
+
 vertex/pixel shader to generate depth map
 
 cube render target is created with flag DXGI_FORMAT_R32_FLOAT
